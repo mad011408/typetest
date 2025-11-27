@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "nodemon src/server.ts",
         "build": "tsc",
-        "start": "node dist/server.js",
+        "start": "node build/server.js",
         "test": "jest",
         "vercel-build": "tsc"
     },
