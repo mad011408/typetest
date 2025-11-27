@@ -1,4 +1,11 @@
 import App from './app';
 
-const app = new App();
-app.listen();
+const appInstance = new App();
+
+// For Vercel Serverless
+export default appInstance.app;
+
+// For Local Development
+if (process.env.NODE_ENV !== 'production') {
+    appInstance.listen();
+}
