@@ -70,7 +70,7 @@ ai-dev-platform/
 4. **Edit `.env` file with your Bons API credentials**
    ```env
    BONS_API_BASE_URL=https://go.trybons.ai
-   BONS_API_KEY=sk_cr_CLACzLNP4e7FGgNFLZ3NuaT25vaJQj3hMPufwsYZG4oG
+   BONS_API_KEY
    ```
 
 ## 🚀 Running the Application
