@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "/packages/backend/src/server.ts"
+        }
+    ],
+    "functions": {
+        "packages/backend/src/server.ts": {
+            "includeFiles": "packages/backend/**"
+        }
+    }
+}

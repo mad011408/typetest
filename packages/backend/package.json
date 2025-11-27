@@ -6,7 +6,8 @@
         "dev": "nodemon src/server.ts",
         "build": "tsc",
         "start": "node dist/server.js",
-        "test": "jest"
+        "test": "jest",
+        "vercel-build": "tsc"
     },
     "dependencies": {
         "@prisma/client": "^5.8.1",
