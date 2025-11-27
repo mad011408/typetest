@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import chatRoutes from './chat.routes';
 
-const router = Router();
+const router: Router = Router();
 
 router.use('/chat', chatRoutes);
 
